@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
 	<title>NSH Tech Challenge</title>
 	<link href="style.css" rel="stylesheet" />
 	<script type="text/javascript" src="main.js"></script>
@@ -9,27 +10,36 @@
 <body onload="showSlide(0);">
 	<div class="flex_container" id="header">
 		<div id="title">NSH Challenge</div>
-			<ul class="flex_container" id="menu_bar">
-				<li>
-					<a href="index.html">HOMEPAGE</a>
-				</li>
-				<li>
-					<a href="">STYLE DEMO</a>
-				</li>
-				<li>
-					<a href="">FULL WIDTH</a>
-				</li>
-				<li>
-					<a href="">DROPDOWN</a>
-				</li>
-				<li>
-					<a href="">LINK TEXT</a>
-				</li>
-			</ul>
+		<div id="menu_alt">
+			<img src="menu.png">
+		</div>
+		<ul class="flex_container" id="menu_bar">
+			<li>
+				<a href="http://KobraKid.github.io">HOMEPAGE</a>
+			</li>
+			<li>
+				<a>STYLE DEMO</a>
+			</li>
+			<li>
+				<a>FULL WIDTH</a>
+			</li>
+			<li id="dropdown">
+				<a>DROPDOWN</a>
+				<div class="dropdown_content">
+					<a>Item 1</a><br />
+					<a>Item 2</a><br />
+					<a>Item 3</a><br />
+					<a>Item 4</a><br />
+				</div>
+			</li>
+			<li>
+				<a href="otherpage.html">LINK TEXT</a>
+			</li>
+		</ul>
 	</div>
 	<div class="segment">
 		<span id="b_f_skinner">&#8220; The real question is not whether machines think but whether men do. 
-		The mystery which surrounds a thinking machine already surrounds a thinking man. &#8221;</span>
+		The mystery which surrounds a thinking machine already surrounds a thinking man. &#8221;<br />- B. F. Skinner</span>
 		<div id="slideshow_div">
 			<img class="main_slide" src="abandoned.jpg">
 			<img class="main_slide" src="bridge.jpg">
@@ -56,7 +66,7 @@
 				<p>My name is Michael Huyler. I was born on March 27<sup>th</sup> 1998.
 				I am a Computer Science major at Northwestern University, but I come from Brown Deer, WI. 
 				I attended Cedarburg High School, and I was a 2016 delegate for the National Youth Science Camp 
-				in West Virginia.<br /><a>Read More &#187;</a></p>
+				in West Virginia.<br /><a href="about.html">Read More &#187;</a></p>
 			</div>
 			<div class="flex_col">
 				<div class="flex_container heading">
@@ -65,7 +75,7 @@
 				</div>
 				<p>Programming has been a passion of mine for a very long time. I started out by playing with Scratch, 
 				and eventaully decided to teach myself C++ and Javascript. In high school I started learning Java, and it very 
-				quickly became my favorite language to code in.<br /><a>Read More &#187;</a></p>
+				quickly became my favorite language to code in.<br /><a href="background.html">Read More &#187;</a></p>
 			</div>
 			<div class="flex_col">
 				<div class="flex_container heading">
@@ -74,7 +84,7 @@
 				</div>
 				<p>I am a purple belt in Taekwondo, but before Taekwondo I was a varsity swimmer during all four years of high school, 
 				and qualified for state my senior year. I love to play the drums, fold origami, play video games, and explore Chicago.
-				<br /><a>Read More &#187;</a></p>
+				<br /><a href="info.html">Read More &#187;</a></p>
 			</div>
 		</div>
 	</div>
